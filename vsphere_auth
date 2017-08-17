@@ -1,0 +1,21 @@
+# Build and Deploy govc
+# Get govc, build and move the binary.
+# Authenticate
+# Continuing with the Github project page, the Usage instructions describe 
+# what's needed in most cases.
+###############################################################################
+###                                  GOVC                                   ###
+###############################################################################
+export GOVC_USERNAME="$VSPHERE_USER"
+export GOVC_PASSWORD="$VSPHERE_PASSWORD"
+export GOVC_URL="$VSPHERE_SERVER"
+export GOVC_INSECURE=1                        # Allow insecure connections
+export GOVC_DATACENTER='Universe'
+###############################################################################
+###                                 VMware                                  ###
+###############################################################################
+export VSPHERE_USER='user.name@domain.tld'
+export VSPHERE_PASSWORD='myPass'
+export VSPHERE_SERVER='esxhost.domain.tld'
+export VSPHERE_ALLOW_UNVERIFIED_SSL='true'
+
