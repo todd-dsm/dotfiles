@@ -6,7 +6,7 @@ The environmental controls that govern my technical eperience; I'm happy to shar
 
 This will keep my configs in sync on multiple (work and personal) computers. I've been lazy about this for far too long and it's all out of control.
 
-I'm using GNU Stow to manage local configs so they can be backed up to a central repository and be consistently available betwen ***n*** number of computers.
+I'm using [GNU Stow] to manage local configs so they can be backed up to a central repository and be consistently available betwen ***n*** number of computers.
 
 ```shell
 Work Laptop                    Personal Laptop
@@ -48,3 +48,7 @@ As in all technical pursuits, this is built in layers; start building from the b
 │          • Terminal.app as interface                      │
 └───────────────────────────────────────────────────────────┘
 ```
+
+<!-- refs -->
+
+[GNU Stow]:https://www.gnu.org/software/stow/
